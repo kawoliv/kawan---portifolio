@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- NAV -->
+    <nav>
+      <a href="#" class="nav-logo">Kawan.dev</a>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-left">
+        <div class="hero-tag">Desenvolvedor Full Stack</div>
+        <h1 class="hero-name">
+          Kawan<br />
+          <span>Oliveira</span>
+        </h1>
+        <p class="hero-desc">
+          Construo interfaces e sistemas que fazem sentido — do código à
+          experiência do usuário final.
+        </p>
+        <div class="hero-cta">
+          <a href="#projetos" class="btn-primary">Ver projetos</a>
+          <a href="#contato" class="btn-secondary">Fale comigo</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-visual">
+          <div class="hero-circle"></div>
+          <div class="hero-circle"></div>
+          <div class="hero-circle"></div>
+          <div class="hero-dot-center"></div>
+        </div>
+        <div class="hero-number">01 / 05</div>
+      </div>
+      <div class="hero-scroll">Scroll</div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker">
+      <div class="ticker-track" id="ticker">
+        <div class="ticker-item">React</div>
+        <div class="ticker-item">Node.js</div>
+        <div class="ticker-item">TypeScript</div>
+        <div class="ticker-item">PostgreSQL</div>
+        <div class="ticker-item">Docker</div>
+        <div class="ticker-item">AWS</div>
+        <div class="ticker-item">Next.js</div>
+        <div class="ticker-item">Python</div>
+        <div class="ticker-item">Figma</div>
+        <div class="ticker-item">React</div>
+        <div class="ticker-item">Node.js</div>
+        <div class="ticker-item">TypeScript</div>
+        <div class="ticker-item">PostgreSQL</div>
+        <div class="ticker-item">Docker</div>
+        <div class="ticker-item">Next.js</div>
+        <div class="ticker-item">Python</div>
+        <div class="ticker-item">Figma</div>
+      </div>
+    </div>
+
+    <!-- SOBRE -->
+    <section id="sobre">
+      <div class="section-label" data-num="01">Sobre mim</div>
+      <h2 class="section-title reveal">Código com<br />propósito.</h2>
+      <div class="sobre-grid">
+        <div class="sobre-text reveal">
+          <p>
+            Sou um desenvolvedor full stack apaixonado por transformar problemas
+            complexos em soluções elegantes. Com
+            <strong>3 anos de experiência</strong>, possuo experiencia com codigo e projetos focados em IA e 
+            desenvolvimento WEB.
+          </p>
+          <p>
+            Acredito que bom código é aquele que resolve o problema real do
+            usuário — não apenas o que parece bonito no pull request. Por isso,
+            combino raciocínio técnico sólido com sensibilidade de produto.
+          </p>
+          <p>
+            Quando não estou codando, você me encontra explorando trilhas,
+            ouvindo jazz experimental ou tentando ganhar do motor de xadrez.
+          </p>
+        </div>
+        <div class="sobre-stats reveal">
+          <div class="stat-card">
+            <div class="stat-number">3<span>+</span></div>
+            <div class="stat-label">Anos de experiência</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Projetos entregues</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Commits por dia</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+      <div class="section-label" data-num="02">Habilidades</div>
+      <h2 class="section-title reveal">O que<br />eu faço.</h2>
+      <div class="skills-grid reveal">
+        <div class="skill-group">
+          <span class="skill-group-icon">⬡</span>
+          <div class="skill-group-name">Frontend</div>
+          <p class="skill-desc">
+            Interfaces rápidas, acessíveis e que as pessoas realmente gostam de
+            usar.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">Figma</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-icon">⬢</span>
+          <div class="skill-group-name">Backend</div>
+          <p class="skill-desc">
+            APIs robustas, banco de dados modelado com cuidado e arquiteturas
+            que escalam.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-icon">◈</span>
+          <div class="skill-group-name">Infra & DevOps</div>
+          <p class="skill-desc">
+            Deploys confiáveis, pipelines automatizados e infraestrutura que não
+            te acorda às 3h.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">Terraform</span>
+            <span class="skill-tag">Linux</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos">
+      <div class="section-label" data-num="03">Projetos</div>
+      <h2 class="section-title reveal">Trabalhos<br />selecionados.</h2>
+      <div class="projects-list reveal">
+        <a href="#" class="project-item">
+          <span class="project-num">001</span>
+          <div class="project-info">
+            <div class="project-name">Sistema de gerênciamento com CRUD</div>
+            <div class="project-meta">
+              <span class="project-tech">StreamLit · Sqlite3</span>
+              <span class="project-year">2024</span>
+            </div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </a>
+        <a href="#" class="project-item">
+          <span class="project-num">002</span>
+          <div class="project-info">
+            <div class="project-name">Logística de Rotas com IA</div>
+            <div class="project-meta">
+              <span class="project-tech">Streamlit · MatplotLib · Gyminasum</span>
+              <span class="project-year">2026</span>
+            </div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </a>
+        <a href="#" class="project-item">
+          <span class="project-num">003</span>
+          <div class="project-info">
+            <div class="project-name">Protótipo de Sistema de Segurança</div>
+            <div class="project-meta">
+              <span class="project-tech">Flask · Werkzeug · PyJwt</span>
+              <span class="project-year">2025</span>
+            </div>
+          </div>
+          <span class="project-arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section id="experiencia">
+      <div class="section-label" data-num="04">Experiência</div>
+      <h2 class="section-title reveal">Onde<br />estive.</h2>
+      <div class="exp-list reveal">
+        <div class="exp-item">
+          <div class="exp-period">2022 — Presente</div>
+          <div>
+            <div class="exp-role">Estudante de Ciências Da Computação</div>
+            <div class="exp-company">Unifacs · Salvador, BR</div>
+            <div class="exp-desc">
+              Sou estudante universitário pela Universidade Salvador(UNIFACS), e desde o inicio da minha graduação atuo ativamente participante de projetos,]
+            palestras e trabalhos acadêmicos com o intuito de 
+            alavancar minha carreira dentro das áreas de TI.
+            </div>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-period">2024 — 2025</div>
+          <div>
+            <div class="exp-role">Projeto de Extensão (Familia de Apps)</div>
+            <div class="exp-company">· Unifacs · </div>
+            <div class="exp-desc">
+              Participei de um projeto de extenção orientado pelo professor Wellington Lacerda, o objetivo era contruir uma familia de Apps composta por 5 aplicativos funcionais cada um voltado para uma área do conhecimento, os apps funcionavam como redes socias nichadas a suas respectivas áreas,
+               atuei no desenvolvimento da landing page
+                e no protótipo e design de um dos aplicativos.
+            </div>
+          </div>
+        </div>
+        <div class="exp-item">
+          <div class="exp-period">2025 — 2026</div>
+          <div>
+            <div class="exp-role">Estágio na InfinitySchool</div>
+            <div class="exp-company">InfinitySchool · Salvador, BR</div>
+            <div class="exp-desc">
+              Atuei como professor de programação pelo colégio de artes criativas InfinitySchool,
+               durante meu dia a dia, mostrava conteúdos voltados as áreas de programação,
+                dando aulas de HTML/CSS básico, até conceitos mais complexos como Programação Orientada a Objetos e utilização de frameworks como Streamlit e React.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato">
+      <div class="section-label" data-num="05">Contato</div>
+      <h2 class="section-title reveal">Vamos<br />conversar.</h2>
+      <div class="contact-grid">
+        <div>
+          <p class="contact-text reveal">
+            Estou aberto para projetos freelance, posições full-time e
+            colaborações interessantes. Se você tem uma ideia ou desafio, me
+            manda uma mensagem.
+          </p>
+          <div class="contact-links reveal">
+            <a href="mailto:kawanxd@hotmail.com" class="contact-link">
+              kawanxd@hotmail.com
+              <span class="contact-link-arrow">→</span>
+            </a>
+            <a href="https://github.com/kawoliv" target="_blank" class="contact-link">
+              GitHub
+              <span class="contact-link-arrow">→</span>
+            </a>
+            <a href="www.linkedin.com/in/kawan-oliveira-49b1a3246" target="_blank" class="contact-link">
+              LinkedIn
+              <span class="contact-link-arrow">→</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label class="form-label">Nome</label>
+            <input
+              type="text"
+              class="form-input"
+              placeholder="Seu nome completo"
+            />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-input"
+              placeholder="seu@email.com"
+            />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Mensagem</label>
+            <textarea
+              class="form-input"
+              placeholder="Me conte sobre seu projeto..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-send">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <span class="footer-copy"
+        >© 2025 Alex Mendes — Todos os direitos reservados</span
+      >
+      <div class="footer-social">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+        <a href="#">CV</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
