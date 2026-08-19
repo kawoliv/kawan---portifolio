@@ -31,6 +31,6 @@ const cursor = document.getElementById('cursor');
     e.preventDefault();
     const btn = e.target.querySelector('.btn-send');
     btn.textContent = 'Mensagem enviada ✓';
-    btn.style.background = '#333';
-    setTimeout(() => { btn.textContent = 'Enviar mensagem'; btn.style.background = ''; }, 3000);
+    btn.classList.add('sent');
+    setTimeout(() => { btn.textContent = 'Enviar mensagem'; btn.classList.remove('sent'); }, 3000);
   }
