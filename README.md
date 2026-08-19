@@ -1,20 +1,20 @@
-# 🖤 Kawan.dev — Portfólio Pessoal
+# Kawan.dev — Portfólio Pessoal
 
-> Site de portfólio pessoal de **Kawan Oliveira**, desenvolvedor full stack e estudante de Ciências da Computação na UNIFACS (Salvador, BA).
+> Site de portfólio pessoal de **Kawan Oliveira Carneiro**, desenvolvedor de software júnior e estudante de Ciência da Computação na UNIFACS (Salvador, BA).
 
 ---
 
 ## 🔗 Demo
 
-[kawoliv.github.io/kawan---portifolio](https://kawoliv.github.io/kawan---portifolio) *(ou acesse pelo repositório)*
+[kawan-portifolio.vercel.app](https://kawan-portifolio.vercel.app)
 
 ---
 
 ## 📋 Sobre o Projeto
 
-Portfólio desenvolvido com **HTML, CSS e JavaScript puros**, sem frameworks ou dependências externas. O design segue uma estética editorial brutalista com paleta monocromática — preto, branco e tons de cinza — priorizando tipografia marcante e micro-interações elegantes.
+Portfólio desenvolvido com **HTML, CSS e JavaScript puros**, sem frameworks ou dependências externas. O design segue uma estética editorial clara e profissional — fundo claro, tinta escura e um azul de destaque — priorizando tipografia marcante e micro-interações elegantes.
 
-O site apresenta a trajetória, habilidades, projetos e formas de contato de Kawan Oliveira.
+O site apresenta a trajetória, habilidades, projetos e formas de contato de Kawan Oliveira Carneiro.
 
 ---
 
@@ -79,21 +79,27 @@ Ou use a extensão **Live Server** no VS Code para hot-reload.
 | # | Seção | Descrição |
 |---|---|---|
 | 01 | **Hero** | Apresentação com nome, cargo e CTAs |
-| 02 | **Sobre** | Biografia e estatísticas (3+ anos, 4 projetos) |
-| 03 | **Habilidades** | Frontend, Backend e DevOps |
-| 04 | **Projetos** | CRUD com Streamlit, Logística com IA, Sistema de Segurança |
-| 05 | **Experiência** | UNIFACS, Projeto de Extensão e InfinitySchool |
+| 02 | **Sobre** | Biografia e estatísticas (8º semestre, 4 projetos, 550h de formação) |
+| 03 | **Habilidades** | Frontend, Backend & Dados, Dados & IA |
+| 04 | **Projetos** | Sistema de Segurança, Logística com IA, PDV, Greenboxing |
+| 05 | **Experiência** | UNIFACS, Projeto de Extensão e Infinity School |
 | 06 | **Contato** | Email, GitHub, LinkedIn e formulário |
 
 ---
 
 ## 💼 Projetos em Destaque
 
-**Sistema de Gerenciamento com CRUD** — Streamlit · SQLite3 (2024)
+**Sistema de Monitoramento e Segurança** — Python (Flask/Pandas) · JS · SQL (2025)
+[github.com/kawoliv/prototipo-sistema-de-seguranca](https://github.com/kawoliv/prototipo-sistema-de-seguranca)
 
-**Logística de Rotas com IA** — Streamlit · Matplotlib · Gymnasium (2026)
+**Logística de Rotas com IA** — Streamlit · Pandas · Scikit-Learn (2026)
+[github.com/Falc01/a3_IA](https://github.com/Falc01/a3_IA)
 
-**Protótipo de Sistema de Segurança** — Flask · Werkzeug · PyJWT (2025)
+**PDV — Caixa para Lanchonete** — Python · SQLite3 · Tkinter (2024)
+[github.com/kawoliv/projeto-caixa-lanchonete](https://github.com/kawoliv/projeto-caixa-lanchonete)
+
+**Greenboxing — Gestão de Resíduos** — JavaScript · React Native (2025)
+[green-boxing.vercel.app](https://green-boxing.vercel.app)
 
 ---
 
